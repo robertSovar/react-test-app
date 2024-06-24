@@ -1,7 +1,9 @@
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-import Body from "./components/Body/Body.jsx";
+import PropsTest from "./components/PropsTest/PropsTest.jsx";
 import { favoriteBooks } from "../db-books.js";
+import ClassComponentTest from "./components/ClassComponentTest/ClassComponentTest.jsx";
+import Events from "./components/Events/Events.jsx";
 
 function App() {
   return (
@@ -10,8 +12,10 @@ function App() {
         title={"Prop title"}
         paragraph={"I used prop to put a paragraph"}
       />
-      <Body books={favoriteBooks} />
-      <Footer />
+      <PropsTest books={favoriteBooks} />
+      <ClassComponentTest />
+      <Events />
+      <Footer creator="Sovar Robert Ionut" />
     </>
   );
 }

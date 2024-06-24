@@ -1,8 +1,8 @@
-import styles from "./Body.module.css";
+import styles from "./PropsTest.module.css";
 
-const Body = ({ books }) => {
+const PropsTest = ({ books }) => {
   return (
-    <ul>
+    <ul className={styles.bookSection}>
       {books.map((book) => (
         <li className={styles.bookList} key={book.id}>
           {book.name}
@@ -12,4 +12,4 @@ const Body = ({ books }) => {
   );
 };
 
-export default Body;
+export default PropsTest;

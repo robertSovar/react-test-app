@@ -1,0 +1,19 @@
+.footerContainer {
+  width: 100%;
+  padding: 45px 45px 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerCreatorSpan {
+  font-weight: 600;
+}
+
+.contactBtn {
+  width: 120px;
+  border: none;
+  outline: none;
+  background-color: rgb(94, 69, 69);
+  color: white;
+  border-radius: 25px;
+}

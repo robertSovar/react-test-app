@@ -1,0 +1,26 @@
+.searchInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 25px;
+}
+
+.searchInput {
+  width: 300px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  background-color: rgb(48, 148, 115);
+  color: black;
+  border-radius: 45px;
+}
+
+.searchInput::placeholder {
+  color: black;
+}
+
+.paragraphText {
+  font-size: 35px;
+}

@@ -1,0 +1,10 @@
+.darkModeBtnClass {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: fixed;
+  top: 45px;
+  right: 250px;
+}

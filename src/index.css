@@ -8,3 +8,18 @@ body {
 ul {
   list-style-type: none;
 }
+
+:root {
+  --dark-background-color: rgb(45, 40, 40);
+  --light-background-color: #fff;
+}
+
+.dark {
+  background-color: var(--dark-background-color);
+  color: rgb(168, 118, 118);
+}
+
+.light {
+  background-color: var(--light-background-color);
+  color: rgb(19, 1, 1);
+}

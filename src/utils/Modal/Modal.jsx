@@ -6,7 +6,7 @@ function Modal(props) {
   const { show, handleClose, children } = props;
 
   function handleOverlayClose(e) {
-    if (e.target.className != "modal") {
+    if (e.target.classList.contains("modal")) {
       handleClose();
     }
   }
